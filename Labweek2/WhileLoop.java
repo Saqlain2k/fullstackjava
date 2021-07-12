@@ -1,0 +1,20 @@
+package Labweek2;
+
+import java.util.Scanner;
+
+public class WhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int number, sum =0;
+Scanner sc=new Scanner(System.in);
+System.out.println("n Please enter any integer below 10");
+number =sc.nextInt();
+while (number<=10) {
+	sum=sum+number;
+	number++;
+}
+System.out.println("Sum of the number from while loop %d"+sum);
+	}
+
+}
